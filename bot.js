@@ -4,7 +4,7 @@ const con = require('./core/connect')
 const wa = require('./core/helper')
 const User = require("./Db/userSchema");
 const connect = require("./Db/connectMongo")
-const ADMIN = "306549960";
+const ADMIN = "5304649285"; // Ganti Admin Mu ID Number Telegram
 const rateLimit = require('telegraf-ratelimit')
 const bot = new Telegraf(process.env.BOT_TOKEN);
 con.connect()
@@ -32,7 +32,7 @@ const KEY = process.env.KEY // invitation code
 //     return re.test(String(phone).toLowerCase())
 // }
 
-const Tg2Wa = new Scenes.WizardScene(
+const telegramtowhatsappsticker = new Scenes.WizardScene(
     'TelegramToWhatsapp',
     async (ctx) => {
         try {
@@ -81,9 +81,9 @@ const Tg2Wa = new Scenes.WizardScene(
         try {
             ctx.wizard.state.mobile = await ctx.message.text;
             const { name, mobile } = await ctx.wizard.state;
-        if (!mobile.includes('+91') && !Number.isInteger(mobile)) {
+        if (!mobile.includes('+62') && !Number.isInteger(mobile)) {
             // if(isValidPhone(mobile)
-            await ctx.reply(`Not an Indian Number Or\nInvalid Format\ne.g. +919876543210 `);
+            await ctx.reply(`Not an Indonesian Number Or\nInvalid Format\ne.g. +62895369318181 `);
             return await ctx.scene.leave();}
         else{
             await ctx.reply(`Your name: ${name}\nYour Number: ${mobile}`);
@@ -112,12 +112,12 @@ const Tg2Wa = new Scenes.WizardScene(
         }
     },
 )
-const stage = new Scenes.Stage([Tg2Wa])
+const stage = new Scenes.Stage([telegramtowhatsappsticker])
 bot.use(stage.middleware())
 
 bot.command('start', async (ctx) => {
     try {
-        await ctx.reply(`Hello \nStart Setup: /setup \nUpdate Number /update\nInfo: /me \nKey:`);
+        await ctx.reply(`Hello Kak Saya TelegramToWhatsappSticker \nStart Setup: /setup \nUpdate Number /update\nInfo: /me \nKey:`);
     } catch (e) {
         console.log(`Bot Blocked || Something Wrong`)
     }
