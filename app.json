@@ -1,22 +1,22 @@
 {
-    "name": "Tg2Wa",
+    "name": "telegramtowhatsappsticker",
     "description": "A simple bot with which can send sticker from telegram to whatsapp.",
     "keywords": [
       "telegram",
       "whatsapp",
-      "tg2wa"
+      "telegramtowhatsappsticker"
     ],
-    "success_url": "https://github.com/salman0ansari",
-    "repository": "https://github.com/salman0ansari/Tg2Wa.git",
+    "success_url": "https://github.com/koleksibot",
+    "repository": "https://github.com/koleksibot/telegramtowhatsappsticker.git",
     "env": {
       "BOT_TOKEN": {
-        "description": "Your bot token from @botfather, as a string."
+        "description": "Masukan Token Dari @botfather, Untuk Mendapatkan Akses bot."
       },
       "MONGO_URI": {
-        "description": "Your Mongo db URI"
+        "description": "Masukaan URL MongoDB Mu"
       },
       "KEY":{
-        "description": "Invitation key for bot"
+        "description": "Kode Invite Untuk Settings Bot Kamu Contoh rootsec"
       }
     },
     "formation": {
