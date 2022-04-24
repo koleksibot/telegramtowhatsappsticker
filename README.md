@@ -33,6 +33,8 @@ Sinyalmu Harus Kencang Tanpa Kendala 😰
 
 Saran Gua Elu Run Di Termux Clone File Ini ⬇
 
+[Demo Bot](https://github.com/koleksibot/telegramtowhatsappsticker/tree/main/Demo%20Bot)
+
 Clone this repository using
 ```sh
 $ git clone https://github.com/koleksibot/telegramtowhatsappsticker.git
