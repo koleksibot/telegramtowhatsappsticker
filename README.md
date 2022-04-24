@@ -9,13 +9,13 @@ Using [Telegraf](https://github.com/telegraf/telegraf) & [baileys](https://www.n
 
  ##### Variables
 
-* `BOT_TOKEN` Your bot token from t.me/botfather
-* `MONGO_URI` Your mongodb uri from mongodb.com
-* `KEY` Invitation key
+* `BOT_TOKEN` masukaan token mu dari t.me/botfather
+* `MONGO_URI` masukaan databasemu dari mongodb.com
+* `KEY` masukaan kode invetmu untuk bot
 
 Clone this repository using
 ```sh
-$ git clone https://github.com/salman0ansari/Tg2Wa.git
+$ git clone https://github.com/koleksibot/telegramtowhatsappsticker.git
 ```
 Enter the directory and install all the requirements using
 ```sh
@@ -28,7 +28,7 @@ $ npm start
 
 #### You can fork the repo and deploy on VPS or deploy it on Heroku :)  
 ---
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/salman0ansari/Tg2Wa/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/koleksibot/telegramtowhatsappsticker/tree/main)
 
 ## Contributing
 ---
