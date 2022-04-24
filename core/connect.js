@@ -21,7 +21,7 @@ exports.connect = async () => {
         console.log("Loaded Session From DB")
     } else {
         conn.on('qr', async (qr) => {
-            console.log('Scan the QR code above.')
+            console.log('Scan the QR code.')
             qrcode.generate(qr, { small: true });
 
             conn.on('open', async () => {
