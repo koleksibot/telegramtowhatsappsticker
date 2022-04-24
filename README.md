@@ -1,8 +1,8 @@
 
-# Tg2Wa
+# Telegram To Whatsapps Sticker Bot
 ---
-Send stickers from Telegram to WhatsApp. 
-Using [Telegraf](https://github.com/telegraf/telegraf) & [baileys](https://www.npmjs.com/package/@adiwajshing/baileys)
+Kirim stickers dari Telegram ke WhatsApp Dengan Bot. 
+Project [Telegraf](https://github.com/telegraf/telegraf) & [baileys](https://www.npmjs.com/package/@adiwajshing/baileys)
 
 ## **Installation**:
 --- 
@@ -12,6 +12,26 @@ Using [Telegraf](https://github.com/telegraf/telegraf) & [baileys](https://www.n
 * `BOT_TOKEN` masukaan token mu dari t.me/botfather
 * `MONGO_URI` masukaan databasemu dari mongodb.com
 * `KEY` masukaan kode invetmu untuk bot
+
+Contoh Doang Variable Untuk Deploy Heroku
+
+* `BOT_TOKEN` 483928:fjfkforndorbfoneodngorndodjdjusb
+* `MONGO_URI` mongodb+srv://koleksibot:tahaluindoganteng@cluster0.unq19.mongodb.net/testdb?retryWrites=true&w=majority
+* `KEY` rootsec
+
+#### Cara Penginstallnya
+
+* `Siapkan 2 HP` 
+
+Untuk Scan QrCode Dari Heroku Dashboard Mu
+
+* `Siapkan Internet` 
+
+Sinyalmu Harus Kencang Tanpa Kendala 😰
+
+* `Saran` 
+
+Saran Gua Elu Run Di Termux Clone File Ini ⬇
 
 Clone this repository using
 ```sh
@@ -30,7 +50,7 @@ $ npm start
 ---
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/koleksibot/telegramtowhatsappsticker/tree/main)
 
-## Contributing
+## Contributing 💝
 ---
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
