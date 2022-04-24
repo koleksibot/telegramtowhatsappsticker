@@ -1,13 +1,13 @@
 {
-  "name": "tg2wa",
-  "version": "2.0.0",
+  "name": "telegramtowhatsappsticker",
+  "version": "1.0.0",
   "description": "Send stickers from Telegram to WhatsApp",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "keywords": [],
-  "author": "salman0ansari",
+  "author": "koleksibot",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.1",
